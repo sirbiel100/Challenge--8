@@ -18,5 +18,68 @@ body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: hsl(210, 60%, 98%);
+}
+
+.main-div {
+  position: relative;
+  left: 10rem;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 15px;
+  width: 70%;
+}
+.main-div img {
+  height: 50px;
+  width: 50px;
+}
+
+.notifications-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notifications-div .notifcation-status {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.notifications-div .notifcation-status span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(219, 85%, 26%);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 6px;
+  color: hsl(0, 0%, 100%);
+}
+.notifications-div p {
+  color: hsl(219, 14%, 63%);
+}
+
+main {
+  margin-top: 2.5rem;
+}
+
+.mark {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+}
+.mark img {
+  margin-right: 1rem;
+}
+.mark .n1 {
+  display: flex;
+  flex-direction: column;
+}
+.mark .n1 pre {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

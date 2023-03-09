@@ -22,5 +22,68 @@ body {
 //Style
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: $VeryLightGrayishBlue;
+}
+
+.main-div {
+    position: relative;
+    left: 10rem;
+    background-color: $White;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 15px;
+    width: 70%;
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.notifications-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .notifcation-status {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $Blue;
+            height: 2rem;
+            width: 2rem;
+            border-radius: 6px;
+            color: $White;
+        }
+    }
+    p {
+        color: $GrayishBlue;
+    }
+}
+
+main {
+    margin-top: 2.5rem;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    img {
+        margin-right: 1rem;
+    }
+    .n1{
+        display: flex;
+        flex-direction: column;
+        pre {
+            text-decoration: none;
+        }
+    }
 }
