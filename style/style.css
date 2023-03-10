@@ -15,12 +15,16 @@ html {
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
 }
 
 body {
   min-height: 100vh;
-  display: grid;
-  place-content: center;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(210, 60%, 98%);
 }
 
@@ -32,7 +36,7 @@ body {
   flex-direction: column;
   padding: 3rem;
   border-radius: 15px;
-  width: 70%;
+  width: 65%;
 }
 .main-div img {
   height: 50px;
@@ -70,16 +74,33 @@ main {
 .mark {
   display: flex;
   align-items: center;
-  justify-content: start;
   gap: 0.5rem;
-}
-.mark img {
-  margin-right: 1rem;
+  padding: 1rem;
+  background-color: hsl(210, 60%, 98%);
+  border-radius: 10px;
 }
 .mark .n1 {
-  display: flex;
-  flex-direction: column;
+  width: 70%;
+  margin-left: 0.5rem;
 }
-.mark .n1 pre {
-  text-decoration: none;
+.mark .n1 p {
+  color: hsl(219, 12%, 42%);
+}
+.mark .n1 p .name1 {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+}
+.mark .n1 p .event {
+  font-weight: 800;
+}
+.mark .n1 p .event .red-point {
+  background-color: hsl(1, 90%, 64%);
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+  margin-left: 1rem;
+  display: inline-block;
+}
+.mark time {
+  color: hsl(219, 14%, 63%);
 }/*# sourceMappingURL=style.css.map */
