@@ -42,6 +42,7 @@ body {
     padding: 3rem;
     border-radius: 15px;
     width: 65%;
+    margin-top: 5rem;
     img {
         height: 50px;
         width: 50px;
@@ -104,8 +105,8 @@ main {
 
             .red-point {
                 background-color: $Red;
-                width: 12px;
-                height: 12px;
+                width: 10px;
+                height: 10px;
                 border-radius: 30px;
                 margin-left: 1rem;
                 display: inline-block;
@@ -114,8 +115,228 @@ main {
     }
 }
 
-time {
-    color: $GrayishBlue;
-}
     
+}
+
+.angela {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $VeryLightGrayishBlue;
+    border-radius: 10px;
+    margin-top: .8rem;
+    
+    .n2 {
+        width: 70%;
+        margin-left: .5rem;
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name2{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+
+            .red-point2 {
+                background-color: $Red;
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                margin-left: 1rem;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.jacob {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $VeryLightGrayishBlue;
+    border-radius: 10px;
+    margin-top: .8rem;
+    
+    .n3 {
+        width: 70%;
+        margin-left: .5rem;
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name3{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+        .chess {
+            font-weight: 800;
+            color: $Blue;
+        }
+
+            .red-point3 {
+                background-color: $Red;
+                width: 10px;
+                height: 10px;
+                border-radius: 30px;
+                margin-left: 1rem;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.rizky {
+    display: grid;
+    align-items: center;
+    height: 12rem;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $White;
+    border-radius: 10px;
+    margin-top: .8rem;
+
+    img {
+        grid-row: 1;
+        grid-column: 1;
+    }
+    
+    .n4 {
+        width: 70%;
+        margin-left: .5rem;
+        grid-row: 1;
+        grid-column: 2 / span 2 ;
+
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name4{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+        }
+    }
+    .private-message {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+        margin-left: 4rem;
+        border: .1px solid $LightGrayishBlue2;
+        padding: 1.5rem;
+        P {
+            color: $DarkGrayishBlue;
+        }
+    }
+}
+
+    
+.kimberly {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $White;
+    border-radius: 10px;
+    margin-top: 1rem;
+    
+    .n5 {
+        width: 70%;
+        margin-left: .5rem;
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name5{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+        .event {
+            font-weight: 800;
+            color: $Blue;
+        }
+
+        }
+    }
+}
+
+.nathan {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $White;
+    border-radius: 10px;
+    margin-top: .8rem;
+    
+    .n6 {
+        width: 70%;
+        margin-left: .5rem;
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name5{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+        .event {
+            font-weight: 800;
+            color: $DarkGrayishBlue;
+        }
+
+        }
+    }
+}
+
+.anna {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: $White;
+    border-radius: 10px;
+    margin-top: .8rem;
+    
+    .n7 {
+        width: 70%;
+        margin-left: .5rem;
+   
+    p{
+        color: $DarkGrayishBlue;
+        
+
+        .name7{
+        color: $VeryDarkBlue;
+        font-weight: 800;
+        margin-right: .3rem;
+        }
+
+        .event {
+            font-weight: 800;
+            color: $Blue;
+        }
+
+        }
+    }
+}
+
+time {
+    color: $GrayishBlue ;
 }
