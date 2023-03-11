@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100%;
   max-width: 1440px;
   display: flex;
   flex-direction: column;
@@ -29,15 +29,15 @@ body {
 }
 
 .main-div {
-  position: relative;
-  left: 10rem;
   background-color: hsl(0, 0%, 100%);
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  width: 65%;
+  height: auto;
   padding: 3rem;
   border-radius: 15px;
-  width: 65%;
-  margin-top: 5rem;
+  margin: 8px;
 }
 .main-div img {
   height: 50px;
@@ -53,6 +53,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  margin-right: 1rem;
 }
 .notifications-div .notifcation-status span {
   display: flex;
@@ -65,7 +66,8 @@ body {
   color: hsl(0, 0%, 100%);
 }
 .notifications-div p {
-  color: hsl(219, 14%, 63%);
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
 }
 
 main {
@@ -155,6 +157,7 @@ main {
   margin-right: 0.3rem;
 }
 .jacob .n3 p .chess {
+  cursor: pointer;
   font-weight: 800;
   color: hsl(219, 85%, 26%);
 }
@@ -201,6 +204,7 @@ main {
   margin-left: 4rem;
   border: 0.1px solid hsl(205, 33%, 90%);
   padding: 1.5rem;
+  width: 100%;
 }
 .rizky .private-message P {
   color: hsl(219, 12%, 42%);
@@ -248,7 +252,7 @@ main {
 .nathan .n6 p {
   color: hsl(219, 12%, 42%);
 }
-.nathan .n6 p .name5 {
+.nathan .n6 p .name6 {
   color: hsl(224, 21%, 14%);
   font-weight: 800;
   margin-right: 0.3rem;
@@ -280,10 +284,109 @@ main {
   margin-right: 0.3rem;
 }
 .anna .n7 p .event {
+  cursor: pointer;
   font-weight: 800;
   color: hsl(219, 85%, 26%);
 }
 
 time {
   color: hsl(219, 14%, 63%);
+}
+
+.notifications-div p:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.mark p .name1:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.mark .event:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.angela p .name2:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.angela .event:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.jacob p .name3:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.jacob .event:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.rizky p .name4:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.rizky .event:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.kimberly p .name5:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.kimberly img:hover {
+  cursor: pointer;
+  border: 0.1px solid hsl(211, 68%, 94%);
+  border-radius: 10px;
+}
+
+.nathan p .name6:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+.nathan p .event:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+.anna p .name7:hover {
+  cursor: pointer;
+  transition: color 0.4s ease;
+  color: hsl(219, 85%, 26%);
+}
+
+@media screen and (max-width: 1000px) {
+  .main-div {
+    width: 100%;
+    height: 100%;
+  }
+  .kimberly {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .kimberly {
+    margin-top: 3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .kimberly {
+    margin-top: 8rem;
+  }
 }/*# sourceMappingURL=style.css.map */
