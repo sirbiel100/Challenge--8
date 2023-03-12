@@ -389,4 +389,24 @@ time {
   .kimberly {
     margin-top: 8rem;
   }
+}
+.mark-toggle {
+  background-color: hsl(0, 0%, 100%);
+}
+.mark-toggle .n1 p .event .red-point {
+  display: none;
+}
+
+.angela-toggle {
+  background-color: hsl(0, 0%, 100%);
+}
+.angela-toggle .n2 p .red-point2 {
+  display: none;
+}
+
+.jacob-toggle {
+  background-color: hsl(0, 0%, 100%);
+}
+.jacob-toggle .n3 p .red-point3 {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

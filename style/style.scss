@@ -533,3 +533,42 @@ time {
         margin-top: 8rem;
     }
 }
+
+// Javascript design
+
+.mark-toggle {
+    background-color: $White;
+
+    .n1 {
+        p{
+            .event {
+                .red-point {
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+
+.angela-toggle {
+    background-color: $White;
+    .n2 {
+        p{
+            .red-point2{
+                display: none;
+            }
+        }
+    }
+}
+
+.jacob-toggle {
+    background-color: $White;
+    .n3 {
+        p {
+            .red-point3{
+                display: none;
+            }
+        }
+    }
+}
