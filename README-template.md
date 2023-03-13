@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/notifications-page-scss-html-and-js-yDazt13C3r)
+- Live Site URL: [Click Here](https://sirbiel100.github.io/Challenge--8/)
 
 ## My process
 
