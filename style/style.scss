@@ -38,11 +38,13 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 65%;
+    width: 60%;
     height: auto;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 15px;
     margin: 8px;
+    box-shadow: 0px 10px 15px 5px $LightGrayishBlue1;
+
     img {
         height: 50px;
         width: 50px;
@@ -89,8 +91,9 @@ main {
     
     
     .n1 {
-        width: 70%;
+        width: 100%;
         margin-left: .5rem;
+        
    
     p{
         color: $DarkGrayishBlue;
@@ -344,6 +347,19 @@ time {
     color: $GrayishBlue ;
 }
 
+footer {
+    background-color: $VeryLightGrayishBlue;
+    margin-top: 2rem;
+    border-radius: 30px;
+    padding: 1rem;
+    animation: myAnimation 5s ease 1s infinite;
+
+    @keyframes myAnimation {
+        0% {background-color: $LightGrayishBlue1;}
+        100% {background-color: $White;}
+    }
+}
+
 //Active status 
 
 .notifications-div {
@@ -359,12 +375,13 @@ time {
 }
 
 .mark {
+    cursor: pointer;
 
     p {
     .name1{
         
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -374,7 +391,7 @@ time {
     .event{
 
         &:hover{
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -382,11 +399,12 @@ time {
 }
 
 .angela {
+    cursor: pointer;
 
     p {
     .name2{
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -404,11 +422,12 @@ time {
 }
 
 .jacob {
+    cursor: pointer;
 
     p {
     .name3{
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -418,7 +437,7 @@ time {
     .event{
 
         &:hover{
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -426,11 +445,12 @@ time {
 }
 
 .rizky {
+    cursor: pointer;
 
     p {
     .name4{
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -440,7 +460,7 @@ time {
     .event{
 
         &:hover{
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -448,11 +468,12 @@ time {
 }
 
 .kimberly {
-
+    cursor: pointer;
+    
     p {
     .name5{
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -462,7 +483,7 @@ time {
     img {
 
         &:hover {
-            cursor: pointer;
+           
             border: .1px solid $LightGrayishBlue1;
             border-radius: 10px;
         }
@@ -470,11 +491,12 @@ time {
 }
 
 .nathan {
+    cursor: pointer;
 
     p {
     .name6{
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }
@@ -493,11 +515,14 @@ time {
 }
 
 .anna {
+    cursor: pointer;
 
     p {
+
     .name7{
+
         &:hover {
-            cursor: pointer;
+            
             transition: color .4s ease;
             color: $Blue;
         }

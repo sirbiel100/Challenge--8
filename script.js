@@ -14,8 +14,6 @@ let names = {
 //-----------<>----------//
 
 
-
-
 mark.addEventListener('click', () =>{   
 
     names.name1.classList.add("mark-toggle");
@@ -25,6 +23,7 @@ mark.addEventListener('click', () =>{
 
 })
 
+
 angela.addEventListener('click', () =>{
 
     names.name2.classList.add("angela-toggle");
@@ -33,6 +32,7 @@ angela.addEventListener('click', () =>{
     notificationNumber.innerHTML = Object.keys(names).length
         
 })
+
 
 jacob.addEventListener('click', () =>{
 
@@ -45,27 +45,29 @@ jacob.addEventListener('click', () =>{
 
 
 allRead.addEventListener('click', () =>{
-        
-    names.name1.classList.add("mark-toggle");
-    names.name2.classList.add("angela-toggle");
-    names.name3.classList.add("jacob-toggle");
-    delete names.name1;
-    delete names.name2;
-    delete names.name3;
+
+    for (name1 in names) {
+        if (names.hasOwnProperty('name1')) {
+            names['name1'].classList.add('mark-toggle');
+            delete names['name1'];
+        }
+    }
+    
+    for (name2 in names) {
+        if (names.hasOwnProperty('name2')) {
+            names['name2'].classList.add('angela-toggle');
+            delete names['name2'];
+        }
+    }
+
+    for (name3 in names) {
+        if (names.hasOwnProperty('name3')) {
+            names['name3'].classList.add('jacob-toggle');
+            delete names['name3'];
+        }
+    }
+
 
     notificationNumber.innerHTML = Object.keys(names).length
 
 })
-
-/*function allReadClickHandler() {
-    for (let propName in names) {
-        if (names.hasOwnProperty(propName)) {
-            names[propName].classList.add(`${propName}-toggle`);
-            delete names[propName];
-        }
-    }
-    notificationNumber.innerHTML = Object.keys(names).length;
-}
-
-
-allRead.addEventListener('click', allReadClickHandler) */

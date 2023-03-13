@@ -33,11 +33,12 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 65%;
+  width: 60%;
   height: auto;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 15px;
   margin: 8px;
+  box-shadow: 0px 10px 15px 5px hsl(211, 68%, 94%);
 }
 .main-div img {
   height: 50px;
@@ -83,7 +84,7 @@ main {
   border-radius: 10px;
 }
 .mark .n1 {
-  width: 70%;
+  width: 100%;
   margin-left: 0.5rem;
 }
 .mark .n1 p {
@@ -293,25 +294,44 @@ time {
   color: hsl(219, 14%, 63%);
 }
 
+footer {
+  background-color: hsl(210, 60%, 98%);
+  margin-top: 2rem;
+  border-radius: 30px;
+  padding: 1rem;
+  animation: myAnimation 5s ease 1s infinite;
+}
+@keyframes myAnimation {
+  0% {
+    background-color: hsl(211, 68%, 94%);
+  }
+  100% {
+    background-color: hsl(0, 0%, 100%);
+  }
+}
+
 .notifications-div p:hover {
   cursor: pointer;
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 
-.mark p .name1:hover {
+.mark {
   cursor: pointer;
+}
+.mark p .name1:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 .mark .event:hover {
-  cursor: pointer;
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 
-.angela p .name2:hover {
+.angela {
   cursor: pointer;
+}
+.angela p .name2:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
@@ -321,41 +341,46 @@ time {
   color: hsl(219, 85%, 26%);
 }
 
-.jacob p .name3:hover {
+.jacob {
   cursor: pointer;
+}
+.jacob p .name3:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 .jacob .event:hover {
-  cursor: pointer;
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 
-.rizky p .name4:hover {
+.rizky {
   cursor: pointer;
+}
+.rizky p .name4:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 .rizky .event:hover {
-  cursor: pointer;
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 
-.kimberly p .name5:hover {
+.kimberly {
   cursor: pointer;
+}
+.kimberly p .name5:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
 .kimberly img:hover {
-  cursor: pointer;
   border: 0.1px solid hsl(211, 68%, 94%);
   border-radius: 10px;
 }
 
-.nathan p .name6:hover {
+.nathan {
   cursor: pointer;
+}
+.nathan p .name6:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
@@ -365,8 +390,10 @@ time {
   color: hsl(219, 85%, 26%);
 }
 
-.anna p .name7:hover {
+.anna {
   cursor: pointer;
+}
+.anna p .name7:hover {
   transition: color 0.4s ease;
   color: hsl(219, 85%, 26%);
 }
